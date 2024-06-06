@@ -1,0 +1,143 @@
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4b0081;
+  
+}
+
+li{
+    float: left;
+    
+}
+
+a{
+
+    text-decoration: none;
+    display: block;
+    padding: 25;
+    color: white;
+    width: 70;
+    font-size: 1.5rem;
+ 
+  
+}
+    a:hover{
+        background-color:rgb(227, 157, 199) ;
+        color: #4b0081;
+        border: 1px solid violet;
+    
+    }
+#stye{padding: 0;
+    text-align: center;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2rem
+    ;
+}
+
+.title{
+    color: #4b0081;
+    text-align: center;
+    font-size: 5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+ 
+   
+    
+}
+body{
+
+    background-color: F8F9D7;
+}
+.def{
+ 
+    /* padding: 30px; */
+    /* margin: 10; */
+    display: flex
+    
+
+    
+    
+    ;}
+
+.def p{
+    border-style: double;
+    border-color: #0e0914;
+    border-width: 10;
+    border-radius: 5%;
+    height: 330;
+    background-color: #E49BFF;
+
+    margin-right: 100px;
+    padding: 35px;
+    font-size: 1.9rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.imgbag{
+    float: right;
+    margin-top: 10;
+    border-radius: 10%;
+    height: 400;
+    width: 400;
+    margin-right: 30;
+    padding: 0;}
+
+    .bagg{
+        float: left;
+        height: 400;
+        width: 300;
+        margin: 20;
+        border-radius:20%;
+
+
+    }
+
+  
+.about{
+
+    font-size:1.9rem;
+    font-weight: 570;
+    line-height: 1.5;
+    background-color: #af83cb;
+    height: 500;
+    padding: 45px;
+    margin: 60;
+    border-radius: 10%;
+    box-shadow: #4b0081;
+    border-style:double;
+    border-width: 20;
+    border-color: rgb(91, 43, 143);
+    color: #170045;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    /* font-family: "Great Vibes", cursive; */
+
+}
