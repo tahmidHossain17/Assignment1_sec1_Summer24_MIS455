@@ -110,10 +110,20 @@ body{
         width: 300;
         margin: 20;
         border-radius:20%;
+        
+        
+        }
+            .title{
+                font-family: "Great Vibes", cursive;
+                font-weight: 900;
+            
+            }
 
 
-    }
 
+
+            
+/* about section css code------------------------------------------------- */
   
 .about{
     display: grid;
@@ -145,7 +155,7 @@ body{
 }
 
 
-/* Address design webpage */
+/* Address design css code  ---------------------------------------------------*/
 
 .map{
     margin: 10%;
@@ -157,7 +167,7 @@ body{
    grid-template-columns: repeat(2,1fr);}
 
    .maplocation{
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     margin: 10%;
     color: aliceblue;
     border-radius: 10%;
@@ -173,6 +183,7 @@ border-radius: 10%;
 
    }
 
+/* ------------------------------------------------------------------------ */
 
 
 
@@ -186,11 +197,8 @@ border-radius: 10%;
 
 
 
-.title{
-    font-family: "Great Vibes", cursive;
-    font-weight: 900;
 
-}
+/* C0ntacts section webpage ------------------------------------------------------*/
 #contacts{display: flex;
     justify-content: center;
     margin: 300;
@@ -198,10 +206,9 @@ border-radius: 10%;
     
 }
 
-/* C0ntacts section webpage */
 
 #contacts i:hover{
-    color: blue;
+    color: rgb(173, 20, 28);
 }
 
 #contacts i{
@@ -216,9 +223,17 @@ border-radius: 10%;
     margin-left: 100;
 }
 
+.para1{
+    display: flex;
+    
+   background-color: rgba(89, 49, 15,0.4);
+   padding: 20;
+   margin: 10;
+   color: white;
 
+}
 
-/* Products section webpage design */
+/* Products section webpage design-------------------------------------------- */
 
 .prdct{
 
@@ -240,3 +255,24 @@ border-radius: 10%;
     ;
 }
 
+.description{
+
+    display: none;
+}
+.prodactitem:hover .description{
+    display: block;
+    background-color: rgba(0,0,0,0.4);
+    height: auto;
+    font-size: x-large;
+    color: white;
+}
+
+.note{
+
+    display: block;
+    background-color: rgba(235, 241, 243, 0.822);
+    height: auto;
+    color: rgb(10, 10, 10);
+    font-size: x-large
+    
+}
