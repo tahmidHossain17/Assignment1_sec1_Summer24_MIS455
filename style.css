@@ -19,7 +19,7 @@ li{
     
 }
 
-a{
+nav a{
 
     text-decoration: none;
     display: block;
@@ -30,7 +30,7 @@ a{
  
   
 }
-    a:hover{
+    nav a:hover{
         background-color:rgb(227, 157, 199) ;
         color: #4b0081;
         border: 1px solid violet;
@@ -57,7 +57,8 @@ a{
 }
 body{
 
-    background-color: F8F9D7;
+    background-color:#ACE1AF;
+    width: auto;
 }
 .def{
  
@@ -65,22 +66,31 @@ body{
     /* margin: 10; */
     display: flex
     
+    
 
     
     
     ;}
 
 .def p{
+
+
+    word-wrap: break-word;
+    flex-wrap: wrap;
     border-style: double;
-    border-color: #0e0914;
+    border-color: #0f0e0f;
     border-width: 10;
     border-radius: 5%;
-    height: 330;
-    background-color: #E49BFF;
+    height:auto;
+    contain:content;
+    width: auto;
+    color: rgb(69, 4, 4);
+    background-color: #9d74b2;
+    
 
     margin-right: 100px;
     padding: 35px;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-weight: 600;
     font-style: italic;
 }
@@ -106,38 +116,127 @@ body{
 
   
 .about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 
-    font-size:1.9rem;
-    font-weight: 570;
+} 
+    
+.para{
+    background-color: #a57bc2;
+    font-size: 1.5rem;
+    height: auto;
+    margin: 5%;
+    padding: 10%;
+    font-weight: 700;
     line-height: 1.5;
-    background-color: #af83cb;
-    height: 500;
-    padding: 45px;
-    margin: 60;
     border-radius: 10%;
-    box-shadow: #4b0081;
     border-style:double;
     border-width: 20;
-    border-color: rgb(91, 43, 143);
-    color: #170045;
+    border-color: rgb(28, 21, 122);
+
+}
+.anim{
+    
+    height: 700;
+    width: 700;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+
+/* Address design webpage */
+
+.map{
+    margin: 10%;
+    border-radius: 5%;
+}
+
+.mapgrid{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);}
+
+   .maplocation{
+    font-size: 1.6rem;
+    margin: 10%;
+    color: aliceblue;
+    border-radius: 10%;
+    background-color: rgba(0,0,0,0.4);
+    height: auto;
+    padding: 5%;
+
+   }
+   .market{
+height: 600;
+width: 800;
+border-radius: 10%;
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title{
+    font-family: "Great Vibes", cursive;
+    font-weight: 900;
+
+}
+#contacts{display: flex;
+    justify-content: center;
+    margin: 300;
+    
+    
+}
+
+/* C0ntacts section webpage */
+
+#contacts i:hover{
+    color: blue;
+}
+
+#contacts i{
+    font-size: 6rem;
+   
+}
+
+.wp{
+
+    margin-right: 100
+    ;
+    margin-left: 100;
 }
 
 
 
+/* Products section webpage design */
+
+.prdct{
 
 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5%;
+    margin-top: 10%;
+    margin-left: 5%;
 
-
-
-
-
-
-
-
-
-
-
-h1{
-    /* font-family: "Great Vibes", cursive; */
-
+    
 }
+.prdct img{
+    border-radius: 10%;
+    width: 350;
+    height: 350
+    
+    
+    ;
+}
+
